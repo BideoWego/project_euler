@@ -1,0 +1,19 @@
+{
+  "name": "project_euler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "euler": "bash ./euler.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BideoWego/project_euler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BideoWego/project_euler/issues"
+  },
+  "homepage": "https://github.com/BideoWego/project_euler#readme"
+}

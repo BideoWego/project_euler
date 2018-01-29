@@ -9,8 +9,8 @@ def multiples_of_3_and_5
     end
   end
 
-  puts "Sum of all multiples of 3 and 5 between 0 and 1000 is:"
-  puts sum
+  sum
 end
 
-multiples_of_3_and_5
+puts "Sum of all multiples of 3 and 5 between 0 and 1000 is:"
+puts multiples_of_3_and_5

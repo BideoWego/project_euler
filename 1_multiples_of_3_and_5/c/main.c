@@ -1,16 +1,7 @@
-/*
-Multiples of 3 and 5
-Problem 1
-If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
-
-Find the sum of all the multiples of 3 or 5 below 1000.
- */
-
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-	puts("----");
-
+  int foo = 1;
 	int low = 0;
 	int high = 1000;
 	int sum = 0;
@@ -24,7 +15,6 @@ int main(int argc, const char * argv[]) {
 		low++;
 	}
 	printf("Sum of all multiples of 3 and 5 between 0 and 1000 is: %d \n", sum);
-	puts("----");
 
 	return 0;
 }

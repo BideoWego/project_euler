@@ -1,4 +1,3 @@
-
 def even_fibonacci_numbers
   a = 1
   b = 2
