@@ -5,15 +5,16 @@ if [ $1 ]; then
   if [ $2 ]; then
     CMD=""
     EXT=""
-
+    d=$(find . -type d -name $NUM*)
 
     if [ $2 == "c" ]; then
-      d=$(find . -type d -name $NUM*)
       CMD="make -C $d/c; $d/c/main"
       EXT="c"
     elif [ $2 == "ruby" ]; then
-      CMD="ruby $NUM*/ruby/index.rb"
+      CMD="ruby $d/ruby/index.rb"
       EXT="rb"
+    elif [ $2 == 'javascript' ]; then
+      CMD="node $d/javascript/index.js"
     fi
 
     if [ -z "$CMD" ] && [ -z "$EXT" ]; then
