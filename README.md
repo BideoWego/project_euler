@@ -8,3 +8,8 @@ My Project Euler problem solutions. Written in a few languages with code to help
     - `npm install -g nodemon`
 2. Rerun problems with `npm run euler -- PROBLEM_NUMER LANGUAGE`
     - Example: `npm run euler -- 1 c`
+
+
+## TODO [Unreleased]
+
+- Optimize solutions with Project Euler overviews
